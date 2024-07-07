@@ -1,15 +1,14 @@
 import express from 'express';
 import mongoose from 'mongoose';
-import dotenv from 'dotenv';
 import userRouter from './routes/user.route.js';
 import authRouter from './routes/auth.route.js';
 import listingRouter from './routes/listing.route.js';
 import cookieParser from 'cookie-parser';
 import path from 'path';
-dotenv.config();
+
 
 mongoose
-  .connect(process.env.MONGO)
+  .connect("mongodb+srv://sakethchunduru2408:saketh123@mern-estate.7rdrmlb.mongodb.net/?retryWrites=true&w=majority&appName=mern-estate")
   .then(() => {
     console.log('Connected to MongoDB!');
   })
