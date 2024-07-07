@@ -7,7 +7,7 @@ export default function About() {
         About Skyline Estates
       </h1>
       <p className="mb-4 text-slate-700">
-        Skyline Estates is a project that I (Anish Kuber) created as my capstone project for the Full Stack Developer Pro
+        Skyline Estates is a project that I (saketh) created as my capstone project for the Full Stack Developer Pro
         course at Imarticus Hyderabad. I have used my skills in MERN stack to develop this website. It has been
         a wonderful process to develop this website and to hone my skills and understanding of building web applications. 
         I'm thankful to my faculty and mentors at Imarticus and Sahand(@reactproject) at Youtube for their guidance. I look forward
