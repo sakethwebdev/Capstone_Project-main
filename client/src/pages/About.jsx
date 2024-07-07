@@ -23,12 +23,12 @@ export default function About() {
       </p>
       <br/>
       <div className="flex flex-col ">
-      <a className="text-blue-800 items-center"href="https://www.linkedin.com/in/anish-kuber-492433187/">My LinkedIn</a>
+      <a className="text-blue-800 items-center"href="https://www.linkedin.com/in/saketh-chunduru-1b384a248/">My LinkedIn</a>
       or
       
-      <a className="text-blue-800 items-center" href=" mailto: anish.kuber@gmail.com">My Email</a>
+      <a className="text-blue-800 items-center" href=" mailto: chundurusaketh@gmail.com">My Email</a>
       </div>
-     
+      
     </div>
   );
 }
